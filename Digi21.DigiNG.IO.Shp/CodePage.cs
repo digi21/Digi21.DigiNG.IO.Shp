@@ -56,7 +56,7 @@
         Hangul_Wansung = 0x79,
         PRCGBK = 0x7a,
         JapaneseShift_JIS_ = 0x7b,
-        ThaiWindows_MS–DOS = 0x7c,
+        ThaiWindows_MS_DOS = 0x7c,
         GreekOEM = 0x86,
         SlovenianOEM = 0x87,
         TurkishOEM = 0x88,
