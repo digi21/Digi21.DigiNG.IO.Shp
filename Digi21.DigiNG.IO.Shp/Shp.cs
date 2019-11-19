@@ -3,7 +3,6 @@ using Digi21.DigiNG.Entities;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
 
 namespace Digi21.DigiNG.IO.Shp
 {
@@ -17,18 +16,18 @@ namespace Digi21.DigiNG.IO.Shp
         public Shp(string path, DigiTab.DigiTab digiTab) { throw null; }
         public Shp(string path, CodePage codePage) { throw null; }
         public Shp(string path, DelegateGetWkt GetWkt) { throw null; }
-        public Shp(string path, [MarshalAs(UnmanagedType.U1)] bool readOnly) { throw null; }
+        public Shp(string path,  bool readOnly) { throw null; }
         public Shp(string path, DigiTab.DigiTab digiTab, CodePage codePage) { throw null; }
         public Shp(string path, DigiTab.DigiTab digiTab, DelegateGetWkt GetWkt) { throw null; }
-        public Shp(string path, DigiTab.DigiTab digiTab, [MarshalAs(UnmanagedType.U1)] bool readOnly) { throw null; }
+        public Shp(string path, DigiTab.DigiTab digiTab,  bool readOnly) { throw null; }
         public Shp(string path, DelegateGetWkt GetWkt, CodePage codePage) { throw null; }
-        public Shp(string path, DelegateGetWkt GetWkt, [MarshalAs(UnmanagedType.U1)] bool readOnly) { throw null; }
-        public Shp(string path, [MarshalAs(UnmanagedType.U1)] bool readOnly, CodePage codePage) { throw null; }
+        public Shp(string path, DelegateGetWkt GetWkt,  bool readOnly) { throw null; }
+        public Shp(string path,  bool readOnly, CodePage codePage) { throw null; }
         public Shp(string path, DigiTab.DigiTab digiTab, DelegateGetWkt GetWkt, CodePage codePage) { throw null; }
-        public Shp(string path, DigiTab.DigiTab digiTab, DelegateGetWkt GetWkt, [MarshalAs(UnmanagedType.U1)] bool readOnly) { throw null; }
-        public Shp(string path, DigiTab.DigiTab digiTab, [MarshalAs(UnmanagedType.U1)] bool readOnly, CodePage codePage) { throw null; }
-        public Shp(string path, DelegateGetWkt GetWkt, [MarshalAs(UnmanagedType.U1)] bool readOnly, CodePage codePage) { throw null; }
-        public Shp(string path, DigiTab.DigiTab digiTab, DelegateGetWkt GetWkt, [MarshalAs(UnmanagedType.U1)] bool readOnly, CodePage codePage) { throw null; }
+        public Shp(string path, DigiTab.DigiTab digiTab, DelegateGetWkt GetWkt,  bool readOnly) { throw null; }
+        public Shp(string path, DigiTab.DigiTab digiTab,  bool readOnly, CodePage codePage) { throw null; }
+        public Shp(string path, DelegateGetWkt GetWkt,  bool readOnly, CodePage codePage) { throw null; }
+        public Shp(string path, DigiTab.DigiTab digiTab, DelegateGetWkt GetWkt,  bool readOnly, CodePage codePage) { throw null; }
         public ReadOnlyComplex Add(Complex complex) { throw null; }
         public void Add(Entity entity) { throw null; }
         public ReadOnlyLine Add(Line line) { throw null; }
@@ -45,8 +44,8 @@ namespace Digi21.DigiNG.IO.Shp
         IEnumerator IEnumerable.GetEnumerator() { throw null; }
         public string Wkt { get; }
         public IDictionary<string, int> DatabaseTables { get; }
-        public bool CanWrite { [return: MarshalAs(UnmanagedType.U1)] get; }
-        public bool CanRead { [return: MarshalAs(UnmanagedType.U1)] get; }
+        public bool CanWrite {  get; }
+        public bool CanRead {  get; }
         public string Path { get; }
     }
 }
