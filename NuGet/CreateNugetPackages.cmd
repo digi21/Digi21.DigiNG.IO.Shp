@@ -1,3 +1,3 @@
 @echo off
 nuget.exe pack Digi21.DigiNG.IO.Shp.nuspec
-nuget.exe sign Digi21.DigiNG.IO.Shp.17.2.0.nupkg -CertificatePath dwo.pfx -TimeStamper http://tsa.starfieldtech.com
+nuget.exe sign Digi21.DigiNG.IO.Shp.21.0.0.nupkg -CertificateSubjectName "DREAMING WITH OBJECTS" -TimeStamper http://tsa.starfieldtech.com
