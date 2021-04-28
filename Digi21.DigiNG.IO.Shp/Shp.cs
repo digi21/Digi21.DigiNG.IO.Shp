@@ -48,5 +48,6 @@ namespace Digi21.DigiNG.IO.Shp
         public bool CanWrite {  get; }
         public bool CanRead {  get; }
         public string Path => throw null;
+        public string ConnectionString => throw null;
     }
 }
