@@ -11,7 +11,7 @@
 		<copyright>Copyright 2010-2024 Digi21.net</copyright>
 		<dependencies>
 			<group targetFramework="net8.0">
-				<dependency id="Digi21.DigiNG" version="24.0.0" exclude="Build,Analyzers" />
+				<dependency id="Digi21.DigiNG" version="24.0.0" />
 				<dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
 				<dependency id="System.Data.DataSetExtensions" version="4.5.0" exclude="Build,Analyzers" />
 			</group>
