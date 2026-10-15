@@ -39,6 +39,8 @@ namespace Digi21.DigiNG.IO.Shp
         public void Delete(Entity entity) => throw null;
         public void Delete(IEnumerable<Entity> entities) => throw null;
         public void Dispose() => throw null;
+        protected virtual void Dispose(bool A_0) => throw null;
+        ~Shp() => throw null;
         public IEnumerator<Entity> GetEnumerator() => throw null;
         IEnumerator IEnumerable.GetEnumerator() => throw null;
         public string Wkt => throw null;
