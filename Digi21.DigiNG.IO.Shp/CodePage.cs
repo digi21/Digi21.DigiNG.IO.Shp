@@ -39,7 +39,7 @@
         Korean_ANSI_OEM = 0x4e,
         ChineseBig5_Taiwan = 0x4f,
         Thai_ANSI_OEM = 80,
-        CurrentANSICP = 0x51,
+        CurrentANSICP = 0x57,
         ANSI = 0x57,
         WesternEuropeanANSI = 0x58,
         SpanishANSI = 0x59,
